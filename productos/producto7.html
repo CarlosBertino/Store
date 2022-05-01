@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineStore</title>
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preload" href="../css/normalize.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preload" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__logo" src="../img/logo.png" alt="logotipo">
+        </a>
+    </header>
+    
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="../index.html">Tienda</a>
+        <a class="navegacion__enlace" href="../nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>HTML5</h1>
+
+        <div class="camisa">
+            <img src="../img/7.jpg" alt="Imagen del producto">
+            <div class="camisa__contenido">
+                <form class="formulario">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quidem explicabo vitae molestiae, eaque corporis deserunt laboriosam fuga veritatis suscipit magnam adipisci ut consequuntur, consectetur atque quasi nobis a fugiat.</p>
+                    <select class="formulario--talle" name="" id="">
+                        <option disabled selected value="">--Seleccionar talle--</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+                    <input class="formulario--cantidad" type="number" placeholder="Cantidad" min="1" max="50">
+                    <input class="formulario--submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2023</p>
+    </footer>
+
+</body>
+</html>
